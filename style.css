@@ -1,0 +1,171 @@
+body{
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #0B63CE;
+}
+
+.form-control, .form-select {
+    border-color: #0B63CE;
+}
+
+label{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.nav-item :hover{
+    text-decoration: underline;
+}
+
+li{
+    list-style-type: none;
+}
+
+.profile{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: 4px solid #0B63CE;
+}
+
+/*STYLE FEED*/
+
+.container-lg {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-dv .form-control{
+    border: 3px solid #0B63CE;
+    padding: 0.8rem;
+}
+
+.form-floating{
+    border: 3px solid #0B63CE;
+    border-radius: 0.3rem;
+}
+
+.form-select{
+    cursor: pointer;
+}
+
+.cards-dv {
+    padding: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: start;
+}
+
+.card-header{
+    min-height: 30%;
+    background-color: #0B63CE !important;
+    color: white;
+}
+
+.card-body{
+    min-height: 50%;
+}
+
+.card-dv {
+    margin: 10px;
+    border: #0B63CE 3px solid !important;
+    border-radius: 7px !important;
+}
+
+.card{
+    cursor: default;
+    width: 18rem;
+    height: 25rem;
+    border-radius: 1.5rem;
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dv-availability{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.category{
+    background-color: #0B63CE;
+    font-size: 13px;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-vacancy{
+    font-size: 18px;
+}
+/* STATOS DISPONIVEL E INDISPONIVEL */
+.dv-status h6{
+    color: #2CBE32;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.dv-status-off{
+    color: rgb(19, 20, 29,0.8);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.dv-date, .dv-time,.dv-location {
+    display: flex;
+    padding: 5px;
+}
+
+.card-date{
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 50
+  }
+
+.card-time{
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-location{
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+/* STYLE BUTTON DISPONIVEL E INDISPONIVEL (OFF) */
+
+.dv-button a{
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    padding: 5px;
+}
+
+.dv-button-off a{
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    padding: 5px;
+    cursor: not-allowed;
+}
